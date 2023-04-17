@@ -13,18 +13,48 @@ body {
 }
 
 nav {
-    background-color:crimson;
     margin: 0px, 20px;
+    background-color:crimson
+    
 
 }
 
 nav a {
-    margin: 0px, 7%;
+    margin: 0px, 10px;
     color: white;
     font-weight: bold;
+    display: flex;
+    ;
+
+
 }
 
 #site-title {
     text-align: center;
 
+}
+
+.navbuttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-article-container {
+    display: flex ;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+
+.img-article-container img {
+    margin-right: 10px;
+}
+
+.img-article-container h2 {
+    margin-top: auto;
+}
+
+#interests {
+    display: flex;
+    
 }
